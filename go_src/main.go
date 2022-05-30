@@ -3,5 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Hello Golang sandbox!")
+	for i := 0; i < 5; i++{
+		fmt.Println("Hello Golang sandbox!")
+	}
 }
